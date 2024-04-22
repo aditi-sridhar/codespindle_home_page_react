@@ -1,0 +1,48 @@
+.info1
+{
+    background-color:#1E180A;
+    display: flex;
+    height:40vh;
+}
+.social
+{
+    padding-left:80px;
+    padding-top: 80px;
+    width:500px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+}
+#socialid
+{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    padding-right: 20px;
+
+}
+.eachsocial
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.quicklinks
+{
+    padding-left:80px;
+    padding-top: 80px;
+    width:500px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+
+}
+.paragraph
+{
+    padding-left:80px;
+    padding-top: 80px;
+    width:500px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,102 @@
+.secondpage
+{
+    background-image: linear-gradient(to bottom, #FF830C,#F1B030);
+    height:90vh;
+    width:100vw;
+    padding: 100px;
+}
+
+.partitiondiv
+{
+    height: 100%;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(2, 560px);
+    grid-column-gap: 100px;
+}
+.courses
+{
+    display: flex;
+    flex-direction: column;
+}
+.info
+{
+    background-color: white;
+}
+
+#popularcourse
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 60px;
+}
+.coursebox
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height:110px;
+    background-color: #0873F7;
+    border-radius: 20px;
+    margin: 20px;
+    margin-left: 0;
+}
+.coursetext
+{
+    padding-left: 30px;
+    color: white;  
+}
+.info
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#listpoint
+{
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.infodetail
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.videoplay
+{
+    border-radius: 10px;
+    justify-self: flex-end;
+    margin-left: 70px;
+    width:400px;
+    height:100px;
+    background-size:cover;
+    background-image: url('./assets/videoplay.png');
+}
+.practice
+{
+    border-radius: 10px;
+    justify-self: flex-end;
+    margin-left: 150px;
+    width:300px;
+    height:100px;
+    background-size:cover;
+    background-image: url('./assets/practice.png');
+
+}
+.compiler
+{
+    border-radius: 10px;
+    justify-self: flex-end;
+
+    margin-left: 90px;
+    width:400px;
+    height:70px;
+    background-size:cover;
+    background-image: url('./assets/compiler.png');
+}

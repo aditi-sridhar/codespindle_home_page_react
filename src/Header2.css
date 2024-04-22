@@ -1,0 +1,31 @@
+.appbar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:60px;
+    margin-top: 30px;
+}
+
+.tab
+{
+    background-color: #070F21;
+    color: white;
+}
+
+.menuoption
+{
+    background-color: #070F21;
+    color: white;
+}
+
+.message
+{
+    position: inherit;
+    padding: 15px;
+    
+}
+.actual_message
+{
+    font-size: smaller;
+}

@@ -1,0 +1,42 @@
+body{
+    position:static;
+    margin:0px;
+    padding: 0;
+}
+.codespindle-orange
+{
+    position: absolute;
+    top:0px;
+    height: 30px;
+    margin:0px;
+    padding:0px;
+}
+.appbar-custom {
+    position: absolute;
+    padding: 0px;
+    width: 100vw;
+    height: 30px; /* Set the height */
+    background: linear-gradient(45deg, #FF810C 0%, #F8A400 33%, #FF810C 66%); /* Set the gradient background */
+}
+
+.toolbar-custom {
+    display: flex;
+    justify-content: space-between;
+    padding:0px;
+}
+.right-button
+{
+    right: 10px;
+    height: 30px;
+    width:100px;
+    border-radius: 20%;
+    position: absolute;
+    font-size: 7px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.buttons
+{
+    display: flex;
+
+}

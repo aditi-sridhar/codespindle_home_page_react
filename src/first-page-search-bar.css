@@ -1,0 +1,40 @@
+.bg
+{
+    position: static;
+    background-image: url('./assets/home_page_bg_1.png');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: grid;
+}
+
+.searchinput
+{
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    padding-left:40px;
+    top: 300px;
+    left:430px;
+    border: solid 2px #540E92;
+}
+
+.searchinput::placeholder
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+.searchoutput
+{
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    background-color: #540E92;
+    border-radius: 30px;
+    top: 302px;
+    left:1025px;
+    border: solid 2px #540E92;
+}
+
